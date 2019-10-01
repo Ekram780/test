@@ -1,12 +1,21 @@
 button {
-	color: green;
+	color:#77a6f2;
+	border-radius: 2px;
+	 background-color: white;
+  color: black;
+  border: 2px solid #4CAF50; /* Green */
 	padding:70px;
 }
 
+body{
+
+}
 
 h1{
 	font-size: 70px;
-	color: #77a6f2;
+	color: #77a6f2; 
+	text-align: center;
+	text-decoration: underline overline;
 
   font-family: "Times New Roman", Times, serif;
 }
