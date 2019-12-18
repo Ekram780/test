@@ -38,3 +38,61 @@ function question(){
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function encrypt(){
+var input =prompt ("Type message");
+var single = input.split("");
+var each =""
+for (i=0; i < input.length; i==) {
+    if (i % 2!==0){
+    each += String.fromCharCode(single[i].charCodeAt()+18)
+    }
+    else{
+        each += String.fromcharCode(single[i].charCodeAt()-5)
+    }
+
+}
+
+  console.log(each)
+}
+encrypt()
+
+
+
+function decrypt(){
+var input =prompt ("Type message");
+var single = input.split("");
+var each =""
+for (i=0; i < input.length; i==) {
+    if (i % 2!==0){
+    each += String.fromCharCode(single[i].charCodeAt()-18)
+    }
+    else{
+        each += String.fromcharCode(single[i].charCodeAt()+5)
+    }
+
+}
+
+  console.log(each)
+}
+decrypt()
